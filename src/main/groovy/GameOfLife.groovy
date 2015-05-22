@@ -14,31 +14,15 @@ class GameOfLife {
 
         int live = 0
 
-        if (grid.get(row - 1, col - 1)) {
-            live++
-        }
-        if (grid.get(row - 1, col)) {
-            live++
-        }
-        if (grid.get(row - 1, col + 1)) {
-            live++
-        }
-        if (grid.get(row, col - 1)) {
-            live++
-        }
-        if (grid.get(row, col + 1)) {
-            live++
-        }
-        if (grid.get(row + 1, col - 1)) {
-            live++
-        }
-        if (grid.get(row + 1, col)) {
-            live++
-        }
-        if (grid.get(row + 1, col + 1)) {
-            live++
-        }
-
+        live += grid.get(row - 1, col - 1) ? 1 : 0
+        live += grid.get(row - 1, col) ? 1 : 0
+        live += grid.get(row - 1, col + 1) ? 1 : 0
+        live += grid.get(row, col - 1) ? 1 : 0
+        live += grid.get(row, col + 1) ? 1 : 0
+        live += grid.get(row + 1, col - 1) ? 1 : 0
+        live += grid.get(row + 1, col) ? 1 : 0
+        live += grid.get(row + 1, col + 1) ? 1 : 0
+        
         live
     }
 
