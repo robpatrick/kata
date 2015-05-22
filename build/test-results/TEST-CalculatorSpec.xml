@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorSpec" tests="12" skipped="0" failures="0" errors="0" timestamp="2015-05-22T06:46:33" hostname="Rob-Patricks-iMac-3.local" time="0.174">
+  <properties/>
+  <testcase name="add method should return 0 for an input of a String null" classname="CalculatorSpec" time="0.054"/>
+  <testcase name="add method should return 0 for an input of a String " classname="CalculatorSpec" time="0.011"/>
+  <testcase name="add method should return 1 for an input of a String 1" classname="CalculatorSpec" time="0.083"/>
+  <testcase name="add method should return 3 for an input of a String 1,2" classname="CalculatorSpec" time="0.001"/>
+  <testcase name="add method should return 3 for an input of a String  1 , 2 " classname="CalculatorSpec" time="0.002"/>
+  <testcase name="add method should return 21 for an input of a String 1,2, 3,4, 5, 6" classname="CalculatorSpec" time="0.001"/>
+  <testcase name="add method should return 0 for an input of a String null with newline" classname="CalculatorSpec" time="0.001"/>
+  <testcase name="add method should return 0 for an input of a String  with newline" classname="CalculatorSpec" time="0.001"/>
+  <testcase name="add method should return 1 for an input of a String 1 with newline" classname="CalculatorSpec" time="0.002"/>
+  <testcase name="add method should return 3 for an input of a String 1&#10;2 with newline" classname="CalculatorSpec" time="0.001"/>
+  <testcase name="add method should return 3 for an input of a String  1 &#10; 2  with newline" classname="CalculatorSpec" time="0.001"/>
+  <testcase name="add method should return 21 for an input of a String 1&#10;2&#10; 3&#10;4, 5, 6 with newline" classname="CalculatorSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

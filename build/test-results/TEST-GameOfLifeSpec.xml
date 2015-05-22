@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameOfLifeSpec" tests="12" skipped="0" failures="0" errors="0" timestamp="2015-05-22T06:46:33" hostname="Rob-Patricks-iMac-3.local" time="0.118">
+  <properties/>
+  <testcase name="Test getLiveNeighbours() all scenarios 0, 0 = 2" classname="GameOfLifeSpec" time="0.021"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 0, 1 = 1" classname="GameOfLifeSpec" time="0.001"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 0, 2 = 2" classname="GameOfLifeSpec" time="0.0"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 1, 0 = 3" classname="GameOfLifeSpec" time="0.002"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 1, 1 = 2" classname="GameOfLifeSpec" time="0.01"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 1, 2 = 3" classname="GameOfLifeSpec" time="0.001"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 2, 0 = 2" classname="GameOfLifeSpec" time="0.001"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 2, 1 = 1" classname="GameOfLifeSpec" time="0.001"/>
+  <testcase name="Test getLiveNeighbours() all scenarios 2, 2 = 2" classname="GameOfLifeSpec" time="0.001"/>
+  <testcase name="Test getLiveNeighbours() all out of bounds scenarios -1, -1 = 0" classname="GameOfLifeSpec" time="0.001"/>
+  <testcase name="Test getLiveNeighbours() all out of bounds scenarios 4, 4 = 0" classname="GameOfLifeSpec" time="0.0"/>
+  <testcase name="Test life" classname="GameOfLifeSpec" time="0.042"/>
+  <system-out><![CDATA[Generation 1
+false true false 
+false true false 
+false true false 
+
+Generation 2
+false false false 
+true true true 
+false false false 
+
+Generation 3
+false true false 
+false true false 
+false true false 
+
+Generation 4
+false false false 
+true true true 
+false false false 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
